@@ -12,7 +12,7 @@ const Main = () => {
           </Row>
           <Row>
             <Col xl={'4'} md={'6'} sm={'12'}>
-
+sfsdf
             </Col>
           </Row>
         </Container>
