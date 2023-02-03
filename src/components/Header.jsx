@@ -7,7 +7,7 @@ const Header = () => {
     const handleClose = () => setShow(false);
     return (
         <>
-            <Container fluid={'12'}>
+            <Container>
                 <Row className={'header'}>
                     <Col md={'12'}>
                         <h1 className="text-center text-white">Danservoll Bootstrap React Project</h1>
