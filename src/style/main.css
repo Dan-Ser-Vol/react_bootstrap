@@ -1,5 +1,5 @@
 :root {
-    --color1: #00A0B2;
+    --color1: #7e6de1;
     --color2: #4C3E9D;
 }
 
@@ -97,8 +97,11 @@ embed {
 
 /*///////////////////////////////////////////////ABOUT////////////////////////////////*/
 
-.about {
+.about, .schedule {
     background-color: #eee;
+}
+.schedule{
+    margin-bottom: 20px;
 }
 
 .itd_circle {
@@ -124,4 +127,38 @@ embed {
 .forwhom h5 {
     padding: 50px;
     border: 3px solid var(--color1);
+}
+
+/*//////////////////////////////Accordion////////////////////////////////////////////////////*/
+
+.accordion-item {
+    color : var(--bs-black);
+    background-color: white;
+
+}
+
+.accordion-collapse, .collapse, .show {
+    border: #4C3E9D;
+}
+
+/*//////////////////////////Footer////////////////////////////////////////////////////////////////*/
+.footer{
+    padding: 30px 0;
+}
+
+
+.btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    padding-top: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: var(--color2);
+}
+
+.btn-link:hover {
+    background-color: #7E6DE1FF;
+    color: var(--color2);
 }

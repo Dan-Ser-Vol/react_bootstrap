@@ -7,7 +7,7 @@ import {Container} from "react-bootstrap";
 
 const Layout = ({children}) => {
     return (
-        <Container fluid={"lg"} style={{height: '100vh'}}>
+        <Container fluid style={{height: '100vh'}}>
             <Header/>
             <Main>{children}</Main>
             <Footer/>
